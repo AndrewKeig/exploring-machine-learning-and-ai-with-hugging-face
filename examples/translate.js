@@ -6,6 +6,6 @@ const translate = async (model, text) => {
   return await hf.translation({ model: model, inputs: text })
 }
 
-const response = await translate("Helsinki-NLP/opus-mt-en-fr", 'hello')
+const response = await translate("Helsinki-NLP/opus-mt-en-fr", 'hello, thank you for reading this post.')
 
 console.log(response)

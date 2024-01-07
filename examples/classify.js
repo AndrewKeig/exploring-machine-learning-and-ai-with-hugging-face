@@ -9,6 +9,6 @@ const classify = async (text) => {
   })
 }
 
-const calssification = await classify('My name is Drew but you can call me Andrew')
+const calssification = await classify('A Love Supreme is an album by American jazz saxophonist John Coltrane')
 
 console.log(calssification)

@@ -15,4 +15,4 @@ const generateImage = async (text, negative) => {
   return fs.writeFileSync('image.png', buffer)
 }
 
-await generateImage('An old black and white photo of an alien', 'pixelated blurry')
+await generateImage('An old black and white photo of an AI', 'pixelated blurry')
